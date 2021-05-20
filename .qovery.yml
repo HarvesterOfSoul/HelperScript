@@ -1,0 +1,15 @@
+---
+application:
+  name: "helperscript"
+  project: "sad-smile"
+  organization: "QoveryCommunity"
+databases:
+- type: "MONGODB"
+  name: "sad-smile"
+  version: "4.2"
+routers:
+- name: "main-helperscript"
+  routes:
+  - application_name: "helperscript"
+    paths:
+    - "/*"
